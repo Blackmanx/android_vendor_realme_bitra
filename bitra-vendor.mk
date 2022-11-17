@@ -51,6 +51,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
     vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/bitra/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ams662zs01_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ams662zs01_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ams662zs01_colorful_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ams662zs01_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ams662zs01_srgb_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_id13_ams662zs01_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_id13_ams662zs01_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_id13_ams662zs01_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_id13_ams662zs01_colorful_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_id13_ams662zs01_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_id13_ams662zs01_srgb_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct_rear.json \
