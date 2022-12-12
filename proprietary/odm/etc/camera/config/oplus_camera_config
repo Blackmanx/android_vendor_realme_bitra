@@ -1184,6 +1184,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.star.video.verify.frame",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.request.zsl.mode",
   "Type": "Byte",
   "Count": "1",
