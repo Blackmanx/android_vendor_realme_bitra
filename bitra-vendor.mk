@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/bitra/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
+    vendor/realme/bitra/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
     vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_gt_RTP_170_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_gt_RTP_170_165Hz.bin \
     vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_gt_RTP_170_170Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_gt_RTP_170_170Hz.bin \
     vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_gt_RTP_170_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_gt_RTP_170_175Hz.bin \
