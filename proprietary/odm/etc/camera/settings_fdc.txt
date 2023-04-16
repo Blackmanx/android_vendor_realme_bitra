@@ -95,6 +95,6 @@
 </RearCameraVar>
 <WideCameraVar>
 <ImageInfo>4:3,3264,2448,1:1,2448,2448,full,3200,1440,16:9,3264,1836</ImageInfo>
-<SensorInfo>3264,2448,1.66,1.75</SensorInfo>
+<SensorInfo>3264,2448,1.66,1.12</SensorInfo>
 </WideCameraVar>
 <CacheDirVar>/odm/etc/camera</CacheDirVar>

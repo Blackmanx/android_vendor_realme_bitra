@@ -91,7 +91,9 @@
     "high_definition_mode": "8001",
     "star_capture_mode": "80A8",
     "star_video_mode": "80A8",
-    "street_mode": "8001"
+    "street_mode": "8001",
+    "tilt_shift_mode": "8001",
+    "tilt_Shift_fastvideo_mode": "800C"
   },
 
   "usecase_info": {
@@ -118,6 +120,7 @@
     "simple_photo_case":[{"preview":"var_camera"}, {"capture":"var_camera"}],
     "professional_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_raw":"var_camera"}],
     "street_case":[{"preview": "var_camera"}, {"capture_yuv": "var_camera"}, {"capture_raw":"var_camera"}],
+    "sat_street_case":[{"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}],
     "front_night_case":[{"reprocess_input":"front_main"}, {"preview":"front_main"}, {"raw_output":"front_main"}, {"capture":"front_main"}],
     "panorama_case":[{"preview":"var_camera"}, {"preview_frame":"var_camera"}],
     "microscope_capture_case":[{"preview":"var_camera"}, {"capture":"var_camera"}],

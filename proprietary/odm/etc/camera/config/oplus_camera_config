@@ -28,6 +28,7 @@
   "Value": "0"
 },
 
+
 {
   "VendorTag": "com.oplus.track.focus.support",
   "Type": "Byte",
@@ -132,13 +133,6 @@
   "Type": "Int32",
   "Count": "2",
   "Value": "4000x3000"
-},
-
-{
-  "VendorTag": "com.oplus.front.night.raw.picturesize",
-  "Type": "Int32",
-  "Count": "2",
-  "Value": "3280x2464"
 },
 
 {
@@ -534,13 +528,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.ui.shutterbutton.type.lowlight",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.video.watermark.support",
   "Type": "Byte",
   "Count": "1",
@@ -747,6 +734,13 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.pre.open.camera.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 },
 
 {
@@ -970,7 +964,14 @@
   "VendorTag": "com.oplus.street.filter.type.list",
   "Type": "Byte",
   "Count": "9",
-  "Value": "OPLUSR0604.cube.rgb.bin,DL_L_B6.cube.rgb.bin,DL_D_G4.cube.rgb.bin,oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin,oplus-r-cyberpunk-RGB.CUBE.rgb.bin,oplus-r-infra-RGB.CUBE.rgb.bin,interstellar_space.bin,bright_coloured.bin"
+  "Value": "Martin.cube.rgb.bin,OPLUSR0604.cube.rgb.bin,DL_L_B6.cube.rgb.bin,DL_D_G4.cube.rgb.bin,oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin,oplus-r-cyberpunk-RGB.CUBE.rgb.bin,oplus-r-infra-RGB.CUBE.rgb.bin,interstellar_space.bin,bright_coloured.bin"
+},
+
+{
+   "VendorTag": "com.oplus.id.photo.face.skip.frame",
+   "Type": "Int32",
+   "Count": "1",
+   "Value": "5"
 },
 
 {
@@ -1135,6 +1136,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.capture.max.images",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "52"
+},
+
+{
   "VendorTag": "com.oplus.feature.quick.launch.support",
   "Type": "Byte",
   "Count": "1",
@@ -1184,6 +1192,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.gesture.detect.in.aps",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.star.video.verify.frame",
   "Type": "Byte",
   "Count": "1",
@@ -1195,6 +1210,62 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.burning.screen.prevent.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.feature.continuous.gallery.pre.decode.enable",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.feature.night.front.zsl.disabled",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.athena.new.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.camera.athena.target.mem.low",
+  "Type": "Float",
+  "Count": "3",
+  "Value": "2.25,2.25,2.25"
+},
+
+{
+  "VendorTag": "com.oplus.camera.athena.target.mem.medium",
+  "Type": "Float",
+  "Count": "3",
+  "Value": "2.25,2.25,2.25"
+},
+
+{
+  "VendorTag": "com.oplus.camera.athena.target.mem.high",
+  "Type": "Float",
+  "Count": "3",
+  "Value": "2.25,2.25,2.25"
+},
+
+{
+  "VendorTag": "com.oplus.athena.memory.threshold",
+  "Type": "String",
+  "Count": "1",
+  "Value": "3.0"
 }
 ]
 

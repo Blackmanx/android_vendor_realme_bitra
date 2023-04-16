@@ -30,6 +30,14 @@
 },
 
 {
+  "VendorTag": "com.oplus.aps.params.gesture",
+  "Type": "Float",
+  "Count": "6",
+  "Value": "2, 0.5, 0, 2, 0, 3",
+  "Comment": "maxHandNum, clsSmoothFactor, narutoGesture, detectionFreq, delayFrameCount, scaling"
+},
+
+{
   "VendorTag": "com.oplus.sat.hdr.zoom.ratio.range",
   "Type": "Float",
   "Count": "2",
@@ -2120,6 +2128,27 @@
 
 {
   "VendorTag": "com.oplus.fwkOmoji",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+   "VendorTag": "com.oplus.aps.params.supernight.version",
+   "Type": "Int32",
+   "Count": "1",
+   "Value": "6"
+},
+
+{
+  "VendorTag": "com.oplus.pi_enable.control.asd",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.iso.jpegtoraw",
   "Type": "Int32",
   "Count": "1",
   "Value": "1"

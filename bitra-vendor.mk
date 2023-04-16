@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/bitra/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
+    vendor/realme/bitra/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/hi846:$(TARGET_COPY_OUT_ODM)/etc/camera/config/hi846 \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
@@ -56,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_eyeprotect_data.xml \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml \
+    vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_bu52053nvx_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_bu52053nvx_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct_rear.json \
@@ -64,18 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/bitra/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_gt_RTP_170_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_gt_RTP_170_165Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_gt_RTP_170_170Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_gt_RTP_170_170Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_gt_RTP_170_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_gt_RTP_170_175Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_165Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_170Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_170Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_175Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_165Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_170Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_170Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_175Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_165Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_165Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_170Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_170Hz.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_175Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_175Hz.bin \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/136730/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136730/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/136858/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136858/charging_thermal_config_default.txt \

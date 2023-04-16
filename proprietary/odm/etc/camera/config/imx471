@@ -32,6 +32,14 @@
 },
 
 {
+  "Key": "MD_HDR_PARSE",
+  "Type": "Int32",
+  "Count": "4",
+  "Value": "1, 200, 3, 8",
+  "Comment": "1: support; 200: blurless+hdr iso trigger; 3: hdr frame number; 6: blurless+hdr frame number"
+},
+
+{
   "Key": "NIGHT_PROCESS_TIME",
   "Type": "Int32",
   "Count": "2",
