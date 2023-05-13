@@ -147,7 +147,7 @@
   "VendorTag": "com.oplus.aps.params.singlebokeh",
   "Type": "Int32",
   "Count": "2",
-  "Value": "65, 1",
+  "Value": "65, 0",
   "Comment": "JsonParamsSingleBokeh: blurSlope, blurIntercept"
 },
 
@@ -2145,6 +2145,22 @@
   "Type": "Int32",
   "Count": "1",
   "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.aps.preview.ux",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "4",
+  "Comment": "version3.0 set 1;version4.0:(light scene:1;heavy scene:2;draw scene:4;list pick:8;default 1)"
+},
+
+{
+  "VendorTag": "com.oplus.aps.ux.preview_rtb",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "2",
+  "Comment": "version3.0 set 1;version4.0:(light scene:1;heavy scene:2;draw scene:4;list pick:8;default 1)"
 },
 
 {
