@@ -19,10 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/hi846:$(TARGET_COPY_OUT_ODM)/etc/camera/config/hi846 \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/imx471:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx471 \
+    vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b \
     vendor/realme/bitra/proprietary/odm/etc/camera/config/s5kgw1:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kgw1 \
+    vendor/realme/bitra/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/realme/bitra/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
@@ -66,12 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/bitra/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136730/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136730/charging_thermal_config_default.txt \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136858/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136858/charging_thermal_config_default.txt \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136859/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136859/charging_thermal_config_default.txt \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/21619/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21619/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin \
@@ -126,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/realme/bitra/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
+    vendor/realme/bitra/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
