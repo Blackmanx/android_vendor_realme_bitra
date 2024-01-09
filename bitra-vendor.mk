@@ -50,8 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
     vendor/realme/bitra/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
-    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/realme/bitra/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ams662zs01_eyeprotect_data.xml \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
     vendor/realme/bitra/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
@@ -66,29 +64,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
     vendor/realme/bitra/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/bitra/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136730/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136730/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136858/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136858/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/136859/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136859/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/21619/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21619/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/2161A/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2161A/charging_thermal_config_default.txt \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/2169A/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2169A/charging_thermal_config_default.txt \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/2169B/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2169B/charging_thermal_config_default.txt \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin \
-    vendor/realme/bitra/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
     vendor/realme/bitra/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/realme/bitra/proprietary/odm/firmware/tp/21619/FW_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21619/FW_S3908_SAMSUNG.img \
     vendor/realme/bitra/proprietary/odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img \
     vendor/realme/bitra/proprietary/odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img \
-    vendor/realme/bitra/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
-    vendor/realme/bitra/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
-    vendor/realme/bitra/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/realme/bitra/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so \
     vendor/realme/bitra/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so \
     vendor/realme/bitra/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so \
@@ -122,10 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
     vendor/realme/bitra/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
-    vendor/realme/bitra/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
-    vendor/realme/bitra/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
-    vendor/realme/bitra/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
-    vendor/realme/bitra/proprietary/vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml \
     vendor/realme/bitra/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
@@ -157,8 +136,4 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/realme/bitra/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
     vendor/realme/bitra/proprietary/vendor/lib/hw/audio.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kona.so \
-    vendor/realme/bitra/proprietary/vendor/lib/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kona.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/realme/bitra/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
+    vendor/realme/bitra/proprietary/vendor/lib/hw/sound_trigger.primary.kona.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kona.so
